@@ -32,14 +32,15 @@ const user = {
 
 const {
   privateInfo: {
-    bday: { year },
+    bday: { year:yearBirth },
   },
   privateInfo: {
-    children: [, two],
+    children: [, secondChild],
   },
   contactInfo: {
-    phone: { work },
+    phone: { work:phoneWork },
   },
 } = user;
 
-console.log(year, two, work);
+console.log(yearBirth, secondChild, phoneWork);
+
